@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<LinearLayout 
+xmlns:android="http://schemas.android.com/apk/res/android" 
+android:orientation="vertical" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent">
+<ScrollView
+    android:layout_weight="1" 
+    android:id="@+id/SV1"
+    android:layout_width="fill_parent"
+    android:layout_height="0dip" >
+    <LinearLayout 
+android:id="@+id/LL"
+android:orientation="vertical" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content">
+
+</LinearLayout>
+</ScrollView>
+<LinearLayout 
+android:layout_width="match_parent" 
+android:layout_height="wrap_content" 
+android:id="@+id/linearLayout2"
+android:orientation="horizontal" 
+android:layout_marginTop="3pt" 
+android:layout_marginLeft="5pt" 
+android:layout_marginRight="5pt"> 
+<EditText
+android:layout_height="wrap_content" 
+android:layout_width="0dip" 
+android:layout_weight="1" 
+android:hint="write a message" 
+android:id="@+id/ET1"> 
+</EditText> 
+<Button 
+android:layout_height="wrap_content" 
+android:layout_width="wrap_content" 
+android:text="SEND"  
+
+android:id="@+id/B1"> 
+</Button> 
+</LinearLayout> 
+</LinearLayout>
